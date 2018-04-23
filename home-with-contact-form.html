@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com  -->
 <!--  Last Published: Mon Apr 23 2018 12:48:31 GMT+0000 (UTC)  -->
-<html data-wf-page="5829d3e2b29856df44ea50f9" data-wf-site="58252c57593ebc112fed21d4">
+<html data-wf-page="5addd599156c00a2d4e31dd1" data-wf-site="58252c57593ebc112fed21d4">
 <head>
   <meta charset="utf-8">
-  <title>ciudadmia.org</title>
+  <title>Home - With contact form</title>
+  <meta content="Home - With contact form" property="og:title">
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <meta content="Webflow" name="generator">
   <link href="css/normalize.css" rel="stylesheet" type="text/css">
@@ -38,7 +39,16 @@
   </div>
   <div class="section">
     <div class="w-container">
-      <p class="h2">Si te interesa esta iniciativa ciudadana y quieres formar parte, contáctanos.</p><a href="mailto:gabrielgomez.axoncoop@gmail.com?subject=Contacto%20desde%20la%20web" class="button w-button">Contacto</a></div>
+      <p class="h2">Si te interesa esta iniciativa ciudadana y quieres formar parte, contáctanos.</p>
+      <div class="w-form">
+        <form id="wf-form-Email" name="wf-form-Email" data-name="Email" class="form"><label for="Nombre" class="title-field">Nombre:</label><input type="text" id="Nombre" name="Nombre" data-name="Nombre" maxlength="256" class="text-field w-input"><label for="Email-3" class="title-field">Email:</label><input type="email" id="Email-3" name="Email" data-name="Email" maxlength="256" required="" class="text-field w-input"><label for="Mensaje-2" class="title-field">Mensaje:</label><textarea id="Mensaje-2" name="Mensaje" maxlength="5000" data-name="Mensaje" class="text-field mensaje w-input"></textarea><input type="submit" value="enviar" data-wait="enviando.." class="button w-button"></form>
+        <div class="success w-form-done">
+          <div class="form">¡Gracias por escribirnos! Ahora estamos en contacto.</div>
+        </div>
+        <div class="success error w-form-fail">
+          <div class="form">Oops! Algo está faltando completar en el formulario.</div>
+        </div>
+      </div><a href="mailto:hola@ciudadmia.org" class="link-contacto w-inline-block"></a></div>
   </div>
   <div class="footer">
     <div class="w-container">
